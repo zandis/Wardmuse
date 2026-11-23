@@ -77,6 +77,8 @@ The output is deterministic. Entries are in a fixed order and no clock is read, 
 - One entry and one key per provider. Consumer subscriptions are hand-off only.
 - A fact that cannot be confirmed is written `unknown`. If the main facts cannot be confirmed, the entry is not added.
 
+Broader, date-stamped research on free compute, LLM APIs, infrastructure and public APIs lives in [`docs/free-resources/`](free-resources/README.md). It is advisory and separate from this catalogue.
+
 ## The weekly page check
 
 ```bash
